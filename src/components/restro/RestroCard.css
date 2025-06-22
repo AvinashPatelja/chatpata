@@ -7,12 +7,15 @@
 .card{
   background-color: #da9b26;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 10px;
   padding: 20px;
   width: 300px;
-  transition: transform 0.2s;}
-
+  transition: transform 0.4s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+.card:hover {
+    transform: scale(1.09);
+  }
   restro-card:hover {
     transform: scale(1.05);
   }
@@ -23,6 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: rgb(190, 187, 183);
   }
   .input-search {
     width: 80%;
