@@ -101,7 +101,7 @@ function App() {
         <RestroList restroList={filteredRestaurants} />
       </div>
       <div className="footer">
-        <p>© 2023 RestroCard. All rights reserved.</p>
+        <p>© 2023 Chatpata. All rights reserved.</p>
         <p>Made with ❤️ by if(Code)</p>
       </div>
       {/* <Test/> */}
