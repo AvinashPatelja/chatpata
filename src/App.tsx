@@ -3,6 +3,7 @@ import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import RestroList from "./components/restro/RestroList";
+import Test from './components/component/test';
 
 function App() {
 
@@ -104,6 +105,7 @@ function App() {
         <p>© 2023 RestroCard. All rights reserved.</p>
         <p>Made with ❤️ by if(Code)</p>
       </div>
+      {/* <Test/> */}
     </div>
   );
 }

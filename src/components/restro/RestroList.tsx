@@ -1,5 +1,5 @@
 import React from "react";
-import RestroCard from "./restroCard";
+import Card from "../component/Card";
 
 
 interface restorentsProps {
@@ -20,7 +20,7 @@ const RestroList = ({ restroList }: { restroList: restorentsProps[] }) => {
         <div className="restro-list">
           {restroList.map((restro) => (
             <div key={restro.id} className="restro-card">
-              <RestroCard restro={restro} />
+              <Card item={restro} />
             </div>
           ))}
         </div>
