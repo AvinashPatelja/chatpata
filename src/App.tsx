@@ -25,7 +25,7 @@ function App() {
     {
       id: 3,
       name: "Tasty Treats",
-      description: "Sweet and savory delights",
+      description: "Sweet and savory",
       image: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_288,c_fill/RX_THUMBNAIL/IMAGES/VENDOR/2024/9/20/fabc29cb-1ddc-4596-b541-a0bac5e23f4f_800166.jpg",
       rating: 3.9,
     },
