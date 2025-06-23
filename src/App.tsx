@@ -3,7 +3,7 @@ import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import RestroList from "./components/restro/RestroList";
-import Test from './components/component/test';
+// import Test from './components/component/test';
 
 function App() {
 
@@ -52,7 +52,7 @@ function App() {
     },
   ];
 
-  const [restroList, setRestroList] = useState(restorents);
+  // Removed unused restroList state
   const [searchItem, setSearchItem] = useState('');
   const [filteredRestaurants, setFilteredRestaurants] = useState(restorents);
 
@@ -61,7 +61,6 @@ function App() {
       restro.name.toLowerCase().includes(searchItem.toLowerCase())
     );
     setFilteredRestaurants(newFilteredList);
-    console.log("Filtered restroList:", restroList);
   }
 
   return (

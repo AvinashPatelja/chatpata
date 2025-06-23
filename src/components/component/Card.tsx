@@ -14,14 +14,14 @@ interface item {
   };
 }
 
-const Card = ({ item }) => {
+const Card: React.FC<item> = ({ item }) => {
   return (
     <div className="cards">
       <div className="card">
         <div className="card-content">
           <h2>{item.name}</h2>
           <p>Rating: {item.rating}</p>
-          <StarRating rating={item.rating} />
+          <StarRating rating={item.rating ?? 0} />
         </div>
         {item.image && (
           <div className="card-image">
