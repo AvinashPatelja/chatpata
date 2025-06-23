@@ -1,6 +1,7 @@
-import React from 'react'
-import './restroCard.css';
-import StarRating from '../start/StarRating';
+import React from "react";
+import "./restroCard.css";
+import StarRating from "../start/StarRating";
+import ImageComponent from "../image/ImageComponent";
 
 interface restro {
   // Define any props you want to pass to the RestroCard component
@@ -13,16 +14,22 @@ interface restro {
   };
 }
 
-const RestroCard = ({restro}) => {
+const RestroCard = ({ restro }) => {
   return (
-    <div className='cards'>
-        <div className='card'>
-            <h2>{restro.name}</h2>
-            <p>{restro.description}</p>
-            <StarRating rating={restro.rating} />
+    <div className="cards">
+      <div className="card">
+        <div className="card-content">
+          <h2>{restro.name}</h2>
+          <p>Rating: {restro.rating}</p>
+          <StarRating rating={restro.rating} />
         </div>
+        <div className="card-image">
+          <ImageComponent src={restro.image} size={100} />          
+          <p>{restro.description}</p>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default RestroCard
+export default RestroCard;

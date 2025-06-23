@@ -5,13 +5,18 @@
   padding: 20px;
 }
 .card{
-  background-color: #da9b26;
+  background-color: white;
   border-radius: 8px;
   margin: 10px;
   padding: 20px;
   width: 300px;
   transition: transform 0.4s;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row; /* ✅ Horizontal stacking */
+  justify-content: space-between; /* ✅ Equal spacing */
+  color: black;
 }
 .card:hover {
     transform: scale(1.09);
@@ -19,6 +24,12 @@
   restro-card:hover {
     transform: scale(1.05);
   }
+
+.card-content,
+.card-image {
+  /* Optional if you want to stretch them to take up available space */
+  flex: 1;
+}
 
   .restro-list {
     list-style-type: none;
