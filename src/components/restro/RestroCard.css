@@ -20,9 +20,11 @@
 }
 .card:hover {
     transform: scale(1.09);
+    cursor: pointer;
   }
   restro-card:hover {
     transform: scale(1.05);
+    
   }
 
 .card-content,

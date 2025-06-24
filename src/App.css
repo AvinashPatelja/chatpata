@@ -1,5 +1,13 @@
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
 .App{
   background-color: #242424;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
 }
 
 .header{
@@ -40,10 +48,10 @@
 }
 .navbar > ul > li > a{
   text-decoration:none;
-  color: #2c2a2a;
+  color: #da9b26;
 }
 .navbar > ul > li > a:hover{
-  color: #007bff;
+  color: #b66101;
 }
 .footer{
   text-align: center;
@@ -62,4 +70,5 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
+  flex: 1;
 }
