@@ -37,6 +37,7 @@ const Restro = ({
   });
   return (
     <div className="restro-detail">
+      <h2 style={{color:'black', marginLeft:'-50%', fontStyle:'italic', fontFamily:'fantasy'}}>{name}</h2>
       <div className="restro-detail-card">
         <div className="restro-image-rating">
           <ImageComponent src={image} alt={name} size={200} />
