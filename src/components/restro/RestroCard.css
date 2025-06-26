@@ -48,3 +48,43 @@
     border-radius: 4px;
     margin-bottom: 20px;
   }
+  .restro-detail{
+    background-color: rgb(190, 187, 183);
+    padding: 20px;
+    margin: 10px;
+    justify-items: center;
+  }
+
+.restro-detail-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Better than center for multi-line text */
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 60%;
+  transition: transform 0.4s;
+  box-shadow: 10px 15px 18px rgba(243, 207, 128, 0.8);
+  color: black;
+}
+
+.restro-image-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.restro-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  flex: 1;
+}
+
+.restro-detail-info {
+  flex: 1;
+  margin-left: 0; /* No need when using gap in container */
+}
+

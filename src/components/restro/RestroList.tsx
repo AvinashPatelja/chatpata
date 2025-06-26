@@ -7,6 +7,11 @@ interface restorentsProps {
   description: string;
   image: string;
   rating: number;
+  cuisine: string;
+  location: string;
+  deliveryTime: string;
+  priceRange: string;
+  popularDishes: string[];
 }
 
 const RestroList = ({ restroList }: { restroList: restorentsProps[] }) => {

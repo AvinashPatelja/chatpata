@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 interface SearchProps {
-  onSearch: (query: string) => void;
+  onSearch: (searchText: string) => void;
   placeholder?: string;
 }
 
