@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Opulent Butterscotch Bliss Cake",
+      "description": "Indulge in a symphony of sweet, buttery flavors layers of moist vanilla sponge cake, generously interspersed with a velvety butterscotch crush, creates blend of indulgence.",
+      "price": 499.00,
+      "category": "1",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/12/13/ac0721e3-d8ff-4b6d-a310-1f0396a1a473_a785bcdf-4854-476c-97cd-f74dcb6c89c8.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Belgium Chocolate Cake - 500 Grams",
+      "description": "Experience chocolate indulgence with our exquisite Belgian Chocolate Cake. Each layer of moist chocolate cake is generously infused with the distinctive taste of authentic Belgian chocolate ganache, creates a blend of rich dessert",
+      "price": 399.99,
+      "category": "1",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/12/13/7b9fd4da-5b55-4e9a-ba37-608c293e20d6_a8746dcd-a1fa-40fe-8f42-70734e69083d.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Chocolate Truffle Eggless Cake",
+      "description": "[Eggless/Veg] Indulge in a decadent chocolate experience a chocolate sponge cake, layered with sumptuous Choco truffle, creates a symphony of cocoa flavors and velvety textures. (6 Serving, 388 calories each, protein-5g each, carbs - 53g each)",
+      "price": 395.99,
+      "category": "1",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/12/13/ece1cbe0-c154-450b-896f-71c98db1bf1f_555e12f5-c4fa-4c3d-9604-0741de47cd8a.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Chicken Biryani",
+      "description": "This biryani comes with two pieces of chicken, raita, gravy and is cooked in our freshly prepared spice blend. It is moderately spicy and serves two.  [Energy: 1615.27 kcal, Protein: 61.82g, Carbohydrates: 190.89g, Fat: 64.63g])",
+      "price": 390.99,
+      "category": "6",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/6/6/dbd91d15-5a52-475c-8365-04ec271e0acd_ddff3434-36b2-4176-b6b3-ccaf723ac764.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Aloo Dum Biryani",
+        "description": "Aloo Dum Biryani is a vegetarian delight that features tender potatoes",
+        "price": 299.99,
+        "category": "6",
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/6/6/ccbfe796-84a3-443e-a5ad-90ada20c0052_d52dc3e6-fad4-45c1-9cf7-37b68a6b895b.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Meghana Special Biryani",
+        "description": "Meghana Special Biryani is a flavorful and aromatic biryani that features succulent pieces of chicken or mutton, marinated in a blend of spices and herbs, layered with fragrant basmati rice, and cooked to perfection.",
+        "price": 490.99,
+        "category": "6",
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/6/6/4b4b942f-e245-4f88-bbb3-41cc1848f01b_4a315863-1667-40ef-8048-96d3df43217b.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Paneer Butter Masala",
+      "description": "Paneer Butter Masala is a rich and creamy North Indian dish made with paneer (Indian cottage cheese) cooked in a luscious tomato-based gravy, flavored with butter and aromatic spices.",
+      "price": 299.99,
+      "category": "5",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ksjxi61s8xqlj8cqp4zs.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Paneer Tikka",
+      "description": "Paneer Tikka is a popular Indian appetizer made with marinated paneer cubes, skewered and grilled to perfection, served with mint chutney.",
+      "price": 199.99,
+      "category": "5",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/f297ea8bd14a74fce581005fb673662f.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Veg Biryani",
+      "description": "Veg Biryani is a flavorful and aromatic rice dish made with basmati rice, mixed vegetables, and a blend of spices, cooked to perfection.",
+      "price": 299.99,
+      "category": "5",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/9/30b23e11-354c-4c99-bd61-4ac94f3a1442_578e20b5-8950-43a5-a6b7-b40fd9813f6a.jpg"
+    }
+  ]
+}
