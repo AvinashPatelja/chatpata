@@ -26,6 +26,14 @@ const RestroList = () => {
     setFilteredRestaurants(newFilteredList);
   };
 
+  const handleTopRestaurents = () => {
+    const topRated = restaurants.filter((restro) => restro.rating >= 3.9);
+    setFilteredRestaurants(topRated);
+  };
+  const handleAllRestaurents = () => {
+    setFilteredRestaurants(restaurants);
+  };
+
   return (
     <>
       <div style={{ textAlign: "center" }}>
@@ -35,12 +43,20 @@ const RestroList = () => {
         />
       </div>
       {filteredRestaurants.length > 0 ? (
-        <div className="restro-list">
-          {filteredRestaurants.map((restro) => (
-            <div key={restro.id} className="restro-card">
-              <Card item={restro} />
-            </div>
-          ))}
+        <div className="top-restaurants">
+          <button onClick={handleTopRestaurents} style={{ margin: "10px" }}>
+            Click for Top Rated Restaurants
+          </button>
+          <button onClick={handleAllRestaurents} style={{ margin: "10px" }}>
+            All Restaurants
+          </button>
+          <div className="restro-list">
+            {filteredRestaurants.map((restro) => (
+              <div key={restro.id} className="restro-card">
+                <Card item={restro} />
+              </div>
+            ))}
+          </div>
         </div>
       ) : (
         <p>No restros found</p>
